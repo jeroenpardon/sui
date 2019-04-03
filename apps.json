@@ -1,0 +1,24 @@
+{
+    "apps" : [
+        {"name":"Bazarr","url":"subs.example.com","icon":"message-video"},
+        {"name":"CloudCMD","url":"files.example.com","icon":"folder-multiple-outline"},
+        {"name":"Cockpit","url":"cp.example.com","icon":"airplane"},
+        {"name":"Feedbin","url":"rss.example.com","icon":"rss"},
+        {"name":"Filestash","url":"cloud.example.com","icon":"package"},
+        {"name":"Jackett","url":"jackett.example.com","icon":"tshirt-crew-outline"},
+        {"name":"Lidarr","url":"music.example.com","icon":"music"},
+        {"name":"Minio","url":"minio.example.com","icon":"server"},
+        {"name":"Mylar","url":"comics.example.com","icon":"book-open-variant"},
+        {"name":"Nextcloud","url":"cloud.example.com","icon":"weather-cloudy"},
+        {"name":"Ombi","url":"request.example.com","icon":"file-find-outline"},
+        {"name":"Pi-hole","url":"pihole.example.com","icon":"do-not-disturb"},
+        {"name":"Plex","url":"play.example.com","icon":"plex"},
+        {"name":"Portainer","url":"port1.example.com","icon":"docker"},
+        {"name":"Radarr","url":"movies.example.com","icon":"filmstrip"},
+        {"name":"Sonarr","url":"tv.example.com","icon":"television-box"},
+        {"name":"Stackedit","url":"md.example.com","icon":"markdown"},
+        {"name":"Transmission","url":"dl.example.com","icon":"progress-download"},
+        {"name":"Ubooquity","url":"opds.example.com","icon":"library-shelves"},
+        {"name":"Youtube-DL","url":"yt.example.com","icon":"youtube"}
+    ]
+}
