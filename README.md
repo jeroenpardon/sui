@@ -1,7 +1,7 @@
 ## SUI
 *a startpage for your server and / or new tab page*
 
-![enter image description here](https://i.imgur.com/ADcyS1m.png)
+![enter image description here](https://i.imgur.com/J4d7Q3D.png)
 
 ### Deploy with Docker compose
 
