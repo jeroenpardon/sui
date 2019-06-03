@@ -110,11 +110,31 @@ function search(text) {
                     break;
             }
         }
+    } else if (validURL(text)) {
+        if (containsProtocol(text))
+            window.location = text;
+        else
+            window.location = "https://" + text;
     } else {
         window.location = "https://www.google.com/search?q=" + text;
     }
 }
 
+// Source: https://stackoverflow.com/questions/5717093/check-if-a-javascript-string-is-a-url
+function validURL(str) {
+    var pattern = new RegExp('^(https?:\\/\\/)?' + // protocol
+        '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' + // domain name
+        '((\\d{1,3}\\.){3}\\d{1,3}))' + // OR ip (v4) address
+        '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' + // port and path
+        '(\\?[;&a-z\\d%_.~+=-]*)?' + // query string
+        '(\\#[-a-z\\d_]*)?$', 'i'); // fragment locator
+    return !!pattern.test(str);
+}
+
+function containsProtocol(str) {
+    var pattern = new RegExp('^(https?:\\/\\/){1}.*', 'i');
+    return !!pattern.test(str);
+}
 
 String.prototype.replaceAll = function(search, replacement) {
     var target = this;
