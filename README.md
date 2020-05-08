@@ -82,7 +82,6 @@ Add names for the categories you wish to define and add the bookmarks for each c
 
 Please note:
 
- - No `http://` in the URL
  - No `,` at the end of the last bookmark in a category and at the end of the last category
 
 
