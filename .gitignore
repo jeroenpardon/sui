@@ -1,3 +1,0 @@
-#ignore all JSON files - they're specific to the installation
-*.json
-
