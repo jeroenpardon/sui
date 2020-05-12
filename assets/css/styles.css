@@ -228,6 +228,10 @@ table a{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
 }
 
 .apps_text a{
