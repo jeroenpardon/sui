@@ -547,3 +547,10 @@ table a{
 		grid-template-rows: auto;
 	}
 }
+
+/* Small Screens */
+@media only screen and (max-width: 400px) {
+	#app-address {
+		display: none;
+	}
+}
