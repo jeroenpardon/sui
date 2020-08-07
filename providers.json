@@ -9,7 +9,7 @@
         {"name":"Qwant","url":"https://www.qwant.com/?q=","prefix":"/q"},
         {"name":"Soundcloud","url":"https://soundcloud.com/search?q=","prefix":"/so"},
         {"name":"Spotify","url":"https://open.spotify.com/search/results/","prefix":"/s"},
-        {"name":"TheTVDB","url":"https://www.thetvdb.com/search?q=","prefix":"/tv"},
+        {"name":"TheTVDB","url":"https://www.thetvdb.com/search?query=","prefix":"/tv"},
         {"name":"Trakt","url":"https://trakt.tv/search?query=","prefix":"/t"}
     ]
 }

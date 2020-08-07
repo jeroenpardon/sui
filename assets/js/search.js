@@ -87,7 +87,7 @@ function search(text) {
                     window.location = "https://trakt.tv/search?query=" + subtext;
                     break;
                 case "tv":
-                    window.location = "https://www.thetvdb.com/search?q=" + subtext;
+                    window.location = "https://www.thetvdb.com/search?query=" + subtext;
                     break;
                 case "y":
                     window.location = "https://www.youtube.com/results?search_query=" + subtext;
