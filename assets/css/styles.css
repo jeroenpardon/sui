@@ -228,6 +228,8 @@ table a{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	flex: 1;
+	overflow: hidden;
 }
 
 .apps_text a{
