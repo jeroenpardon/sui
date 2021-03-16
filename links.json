@@ -5,7 +5,7 @@
                 "links": [
                   {
                     "name": "Discord",
-                    "url": "https://discordapp.com/"
+                    "url": "https://discord.com"
                   },
                   {
                     "name": "Gmail",
@@ -22,7 +22,7 @@
                 "links": [
                   {
                     "name": "Box",
-                    "url": "https://box.net"
+                    "url": "https://box.com"
                   },
                   {
                     "name": "Dropbox",
@@ -81,7 +81,7 @@
                   },
                   {
                     "name": "Freshome",
-                    "url": "https://freshome.com/"
+                    "url": "https://www.mymove.com/freshome/"
                   }
                 ]
               },
@@ -98,7 +98,7 @@
                   },
                   {
                     "name": "YouTube",
-                    "url": "http://youtube.com/subscriptions"
+                    "url": "https://youtube.com/feed/subscriptions"
                   }
                 ]
               },
