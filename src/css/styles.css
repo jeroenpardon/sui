@@ -5,8 +5,7 @@ html{
 	webkit-text-size-adjust: none;
 }
 
-html,
-body{
+html, body{
 	background-color: var(--color-background);
 	color: var(--color-text-pri);
 	font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Roboto, sans-serif;
@@ -20,9 +19,7 @@ body{
 	width: 100vw;
 }
 
-*,
-*:before,
-*:after{
+*, *:before, *:after{
 	box-sizing: inherit;
 	moz-box-sizing: inherit;
 	webkit-box-sizing: inherit;
@@ -34,7 +31,6 @@ body{
 
 
 /* TEXT STYLES */
-
 h1, h2{
 	font-weight: 300;
 	margin: 0;
@@ -43,7 +39,7 @@ h1, h2{
 }
 
 h2, h3, h4{
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 h1{
@@ -55,7 +51,7 @@ h1{
 h2{
 	font-size: 16px;
 	height: 30px;
-	
+
 }
 
 h3{
@@ -85,9 +81,7 @@ a:hover{
 	font-size: 2.5em;
 }
 
-
 /* FORMS */
-
 input{
 	background-color: transparent;
 	border: 0;
@@ -108,9 +102,7 @@ input:focus{
 	opacity: 1;
 }
 
-
 /* TABLES */
-
 table{
 	border: thin solid #e4e4e4;
 	border-collapse: collapse;
@@ -146,7 +138,6 @@ table a{
 
 
 /* ANIMATION */
-
 .fade{
 	opacity: 0;
 }
@@ -169,9 +160,7 @@ table a{
 	animation-delay: .4s;
 }
 
-
 /* LAYOUT */
-
 #container{
 	align-items: stretch;
 	display: grid;
@@ -189,7 +178,6 @@ table a{
 
 
 /* SECTIONS */
-
 #header{
 	border-bottom: 0px solid var(--color-text-acc);
 	z-index: 1;
@@ -269,23 +257,7 @@ table a{
 	line-height: 2;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MODAL */
-
-
 #modal{
 	overflow-y: auto;
 	bottom: 0;
@@ -308,12 +280,12 @@ table a{
 	background-color: #ffffff;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.25);
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 	padding: 2em;
 	margin-top: 5vh;
 	width: 50%;
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 #modal h1{
@@ -326,18 +298,18 @@ table a{
 }
 
 #modal-header{
-    display:flex;
-    justify-content: space-between;
+	display:flex;
+	justify-content: space-between;
 }
 
 #modal-footer{
-    display:flex;
-    font-size:2em;
-    justify-content: flex-start;
+	display:flex;
+	font-size:2em;
+	justify-content: flex-start;
 }
 
 #modal-footer a{
-    margin-right:0.25em;
+	margin-right:0.25em;
 }
 
 .modal-close{
@@ -366,20 +338,19 @@ table a{
 	border-bottom: 0px solid var(--color-text-acc);
 	display: flex;
 	flex-wrap: wrap;
-    margin-bottom: 2em;
+	margin-bottom: 2em;
 }
 
 #providers{
-    margin-bottom: 2em;
+	margin-bottom: 2em;
 }
 
 
 /* THEMING */
-
 .theme-button{
 	font-size: 0.8em;
 	margin: 2px;
-    width:128px;
+	width:128px;
 	line-height: 3em;
 	text-align: center;
 	text-transform: uppercase;
@@ -388,72 +359,71 @@ table a{
 .theme-blackboard{
 	background-color: #000000;
 	border: 4px solid #5c5c5c;
-    color: #FFFDEA;
+	color: #FFFDEA;
 }
 
 .theme-gazette{
 	background-color: #F2F7FF;
 	border: 4px solid #5c5c5c;
-    color: #000000;
+	color: #000000;
 }
 
 .theme-espresso{
 	background-color: #21211F;
 	border: 4px solid #4E4E4E;
-    color: #D1B59A;
+	color: #D1B59A;
 }
 
 .theme-cab{
 	background-color: #FEED01;
 	border: 4px solid #424242;
-    color: #1F1F1F;
+	color: #1F1F1F;
 }
 
 .theme-cloud{
 	background-color: #f1f2f0;
 	border: 4px solid #35342f;
-    color: #37bbe4;
+	color: #37bbe4;
 }
 
 .theme-lime{
 	background-color: #263238;
 	border: 4px solid #AABBC3;
-    color: #aeea00;
+	color: #aeea00;
 }
 
 .theme-passion{
 	background-color: #f5f5f5;
 	border: 4px solid #8e24aa;
-    color: #12005e;
+	color: #12005e;
 }
 
 .theme-blues{
 	background-color: #2B2C56;
 	border: 4px solid #6677EB;
-    color: #EFF1FC;
+	color: #EFF1FC;
 }
 
 .theme-chalk{
 	background-color: #263238;
 	border: 4px solid #FF869A;
-    color: #AABBC3;
+	color: #AABBC3;
 }
 
 .theme-tron{
 	background-color: #242B33;
 	border: 4px solid #6EE2FF;
-    color: #EFFBFF;
+	color: #EFFBFF;
 }
 
 .theme-paper{
 	background-color: #F8F6F1;
 	border: 4px solid #F5E1A4;
-    color: #4C432E;
+	color: #4C432E;
 }
 
 
 /* MEDIA QUERIES */
-
 @media screen and (max-width: 1260px)
 {
 	#container
@@ -470,7 +440,7 @@ table a{
 		margin-right: auto;
 		width: 90%;
 	}
-    
+
 	#apps_loop{
 		grid-template-columns: 1fr 1fr 1fr;
 		width: 100vw;
@@ -480,12 +450,12 @@ table a{
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
-    #modal>div{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5vh;
-        width: 90%;
-    }
+	#modal>div{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5vh;
+		width: 90%;
+	}
 }
 
 @media screen and (max-width: 667px)
@@ -539,7 +509,7 @@ table a{
 		font-size: 2em;
 		line-height: 2.5rem;
 	}
-    
+
 	#links_loop{
 		display: grid;
 		flex-wrap: nowrap;

@@ -4,7 +4,7 @@ LABEL maintainer="Jeroen Pardon"
 
 WORKDIR /opt/html
 
-COPY . /opt/html
+COPY src/ /opt/html
 
 EXPOSE 80
 
