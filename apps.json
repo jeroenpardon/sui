@@ -1,6 +1,6 @@
 {
     "apps" : [
-        {"name":"Bazarr","url":"subs.example.com","icon":"message-video"},
+        {"name":"Bazarr","url":"subs.example.com","icon":"message-video", "target": "_blank"},
         {"name":"CloudCMD","url":"files.example.com","icon":"folder-multiple-outline"},
         {"name":"Cockpit","url":"cp.example.com","icon":"airplane"},
         {"name":"Feedbin","url":"rss.example.com","icon":"rss"},

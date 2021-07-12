@@ -13,7 +13,8 @@
                   },
                   {
                     "name": "Slack",
-                    "url": "https://slack.com/signin"
+                    "url": "https://slack.com/signin",
+                    "target": "_blank"
                   }
                 ]
               },
@@ -22,11 +23,13 @@
                 "links": [
                   {
                     "name": "Box",
-                    "url": "https://box.com"
+                    "url": "https://box.com",
+                    "target": "sui"
                   },
                   {
                     "name": "Dropbox",
-                    "url": "https://dropbox.com"
+                    "url": "https://dropbox.com",
+                    "target": "sui"
                   },
                   {
                     "name": "Drive",

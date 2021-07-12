@@ -12,7 +12,7 @@
 </head>
 
 <body onload="loadFunctions()">
-    
+
     <section id="modal">
         <div>
             <header id="modal-header">
@@ -62,14 +62,14 @@
                 <a href="https://materialdesignicons.com/"><span class="iconify" data-icon="mdi-material-design"></a></span>
             </header>
         </div>
-    </section>    
+    </section>
 
     <main id="container" class="fade">
 
         <section id="search">
             <input name="keywords" type="text" id="keywords" size="50" spellcheck="false" autofocus="true" onkeydown="handleKeyPress(event)">
         </section>
-            
+
         <section id="header">
             <h2 id="header_date"></h2>
             <h1 id="header_greet"></h1>
@@ -85,11 +85,11 @@
                             <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
                         </div>
                         <div class="apps_text">
-                            <a href="https://{{url}}">{{name}}</a>
+                            <a href="https://{{url}}" {{#if target}}target="{{target}}"{{/if}} >{{name}}</a>
                             <span id="app-address">{{url}}</span>
                         </div>
                     </div>
-                {{/apps}}                         
+                {{/apps}}
             </div>
             </script>
         </section>
@@ -102,11 +102,11 @@
                     <div id="links_item">
                         <h4>{{category}}</h4>
                         {{#links}}
-                            <a href="{{url}}" class="theme_color-border theme_text-select">{{name}}</a>
+                            <a href="{{url}}" target="{{target}}" class="theme_color-border theme_text-select">{{name}}</a>
                         {{/links}}
                     </div>
                 {{/bookmarks}}
-            </div>    
+            </div>
             </script>
         </section>
     </main>
@@ -121,6 +121,6 @@
     <script src="./assets/js/script.js" type="text/javascript"></script>
     <script src="./assets/js/themer.js" type="text/javascript"></script>
     <script src="./assets/js/search.js" type="text/javascript"></script>
-    
+
 </body>
 </html>
