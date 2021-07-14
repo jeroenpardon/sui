@@ -32,14 +32,16 @@ Add your apps by editing apps.json:
 
     {
 	    "apps" : [
-		    {"name":"Name of app 1","url":"sub1.example.com","icon":"icon-name"},
-		    {"name":"Name of app 2","url":"sub2.example.com","icon":"icon-name"}
+		    {"name":"Name of app 1", "protocol":"https", "url":"sub1.example.com", "icon":"icon-name", "newtab":1},
+		    {"name":"Name of app 2", "protocol":"ftp", "url":"ftp.example.com", "icon":"icon-name"}
 	    ]
     }
 
 Please note:
 
- - No `http://` in the URL
+ - No protocol (i.e., `http://` or `https://`) in the URL
+ - No `://` in the protocol
+ - Newtab and protocol are optional. By default, omission will result in using `http` within the same window/tab
  - No `,` at the end of the last app's line
  - Find the names  of icons to use at [Material Design Icons](https://materialdesignicons.com/)
 
@@ -52,27 +54,15 @@ Add your bookmarks by editing links.json:
       {  
          "category":"Category1",
          "links":[  
-            {  
-               "name":"Link1",
-               "url":"http://example.com"
-            },
-            {  
-               "name":"Link2",
-               "url":"http://example.com"
-            }
+            {"name":"Link1", "url":"http://example.com"}, "newtab":1,
+            {"name":"Link2", "url":"http://example.com"}
          ]
       },
       {  
          "category":"Category2",
          "links":[  
-            {  
-               "name":"Link1",
-               "url":"http://example.com"
-            },
-            {  
-               "name":"Link2",
-               "url":"http://example.com"
-            }
+            {"name":"Link1", "url":"http://example.com"}, "newtab":1,
+            {"name":"Link2", "url":"http://example.com"}
          ]
       }
    ]
@@ -83,6 +73,7 @@ Add names for the categories you wish to define and add the bookmarks for each c
 Please note:
 
  - No `http://` in the URL
+ - Newtab is optional. By default, omission will result in using the same window/tab
  - No `,` at the end of the last bookmark in a category and at the end of the last category
 
 
