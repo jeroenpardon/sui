@@ -85,7 +85,7 @@
                             <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
                         </div>
                         <div class="apps_text">
-                            <a href="https://{{url}}">{{name}}</a>
+                            <a href="https://{{url}} {{#if newtab}}target="_blank" rel="noopener noreferrer"{{/if}} ">{{name}}</a>
                             <span id="app-address">{{url}}</span>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                     <div id="links_item">
                         <h4>{{category}}</h4>
                         {{#links}}
-                            <a href="{{url}}" class="theme_color-border theme_text-select">{{name}}</a>
+                            <a href="{{url}}" {{#if newtab}}target="_blank" rel="noopener noreferrer"{{/if}} class="theme_color-border theme_text-select">{{name}}</a>
                         {{/links}}
                     </div>
                 {{/bookmarks}}
