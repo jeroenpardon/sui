@@ -67,7 +67,7 @@
     <main id="container" class="fade">
 
         <section id="search">
-            <input name="keywords" type="text" id="keywords" size="50" spellcheck="false" autofocus="true" onkeydown="handleKeyPress(event)">
+            <input name="keywords" type="text" id="keywords" size="50" spellcheck="false" autofocus="true" onkeydown="handleKeyPress(event)" placeholder="Type here to search...">
         </section>
             
         <section id="header">
@@ -85,7 +85,7 @@
                             <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
                         </div>
                         <div class="apps_text">
-                            <a href="{{#if protocol}}{{protocol}}://{{/if}}{{url}}" {{#if newtab}}target="_blank" rel="noopener noreferrer"{{/if}} >{{name}}</a>
+                            <a href="{{#if protocol}}{{protocol}}{{else}}http{{/if}}://{{url}}" {{#if newtab}}target="_blank" rel="noopener noreferrer"{{/if}} >{{name}}</a>
                             <span id="app-address">{{url}}</span>
                         </div>
                     </div>
