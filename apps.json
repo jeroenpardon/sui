@@ -1,11 +1,11 @@
 {
     "apps" : [
-        {"name":"Bazarr", "protocol":"https", "url":"subs.example.com", "icon":"message-video", "newtab":1},
+        {"name":"Bazarr", "protocol":"https", "url":"subs.example.com", "icon":"message-video", "newtab":1, "tooltip":"How Bazahh"},
         {"name":"CloudCMD", "protocol":"https", "url":"files.example.com", "icon":"folder-multiple-outline", "newtab":1},
         {"name":"Cockpit", "protocol":"https", "url":"cp.example.com", "icon":"airplane", "newtab":1},
         {"name":"Feedbin", "protocol":"https", "url":"rss.example.com", "icon":"rss", "newtab":1},
         {"name":"Filestash", "protocol":"https", "url":"cloud.example.com", "icon":"package", "newtab":1},
-        {"name":"Jackett", "protocol":"https", "url":"jackett.example.com", "icon":"tshirt-crew-outline", "newtab":1},
+        {"name":"Jackett", "protocol":"https", "url":"jackett.example.com", "icon":"tshirt-crew-outline", "newtab":1, "tooltip":"Brrrrrgg..."},
         {"name":"Lidarr", "protocol":"https", "url":"music.example.com", "icon":"music", "newtab":1},
         {"name":"Minio", "protocol":"https", "url":"minio.example.com", "icon":"server", "newtab":1},
         {"name":"Mylar", "protocol":"https", "url":"comics.example.com", "icon":"book-open-variant", "newtab":1},
