@@ -32,6 +32,7 @@ let weather = {
         this.fetchWeather(document.querySelector(".search-bar").value);
     },
 };
+
 // Allow users to search with "Enter" button
 document.querySelector(".search button").addEventListener("click", function(){
     weather.search();
