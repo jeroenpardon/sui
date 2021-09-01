@@ -96,7 +96,6 @@ function search(text) {
                 case "g":
                     window.location = "https://www.google.com/?q=" + subtext;
                     break;
-
             }
         } else {
             var option = text.substr(1);
