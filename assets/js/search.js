@@ -1,5 +1,6 @@
 var sindex = 0;
 var cycle = false;
+var sengine = "https://www.google.com/?q="; // Default search engine
 
 function start() {
     var query = getParameterByName('q');
@@ -92,6 +93,10 @@ function search(text) {
                 case "y":
                     window.location = "https://www.youtube.com/results?search_query=" + subtext;
                     break;
+                case "g":
+                    window.location = "https://www.google.com/?q=" + subtext;
+                    break;
+
             }
         } else {
             var option = text.substr(1);
