@@ -97,7 +97,7 @@ function search(text) {
             var option = text.substr(1);
             switch (option) {
                 case "d":
-                    window.location = "https://www.dukduckgo.com";
+                    window.location = "https://www.duckduckgo.com";
                     break;
                 case "y":
                     window.location = "https://www.youtube.com";
