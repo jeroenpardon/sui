@@ -92,6 +92,9 @@ function search(text) {
                 case "y":
                     window.location = "https://www.youtube.com/results?search_query=" + subtext;
                     break;
+                case "w":
+                    window.location = "https://en.wikipedia.org/w/index.php?search=" + subtext;
+                    break;
             }
         } else {
             var option = text.substr(1);
