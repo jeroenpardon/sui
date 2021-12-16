@@ -1,0 +1,10 @@
+FROM ubuntu:latest
+
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install nginx git cron nano
+
+COPY install.sh /tmp/
+
+EXPOSE 80
+
+# execute install, start cron and nginx
+CMD chmod +x /tmp/install.sh && /tmp/install.sh && cron && nginx
