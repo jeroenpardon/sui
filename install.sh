@@ -1,5 +1,6 @@
 cd /var/www/html
 git clone $GITURL sui
+shopt -s dotglob
 mv sui/* .
 rm -rf sui
 echo "pulled update"
