@@ -20,6 +20,30 @@ body{
 	width: 100vw;
 }
 
+/* Weather */
+section#weather {
+    display: flex;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 130%;
+}
+
+
+
+.weatherSearch {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 30px;
+    width: 30px;
+    outline: none;
+}
+.temp, .search-icon, .description, .humidity, .wind {
+	display: flex;
+	justify-content: center;
+}
+
+
 *,
 *:before,
 *:after{
@@ -79,10 +103,6 @@ a:hover{
 	text-decoration: underline;
 	webkit-text-decoration-color: var(--color-text-acc);
 	webkit-text-decoration-skip: true;
-}
-
-.icon{
-	font-size: 2.5em;
 }
 
 
@@ -187,7 +207,6 @@ table a{
 }
 
 
-
 /* SECTIONS */
 
 #header{
@@ -268,8 +287,6 @@ table a{
 	display: block;
 	line-height: 2;
 }
-
-
 
 
 
